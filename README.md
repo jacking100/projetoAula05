@@ -21,25 +21,4 @@ Ele roda em modo **console** e permite o gerenciamento de pessoas (cadastro, atu
 
 ---
 
-## 📂 Estrutura do Projeto
-
-projetoAula05
-│
-├── principal
-│ └── Main.java # Classe principal (menu do sistema)
-│
-├── controllers
-│ └── PessoaController.java # Regras de negócio (operações CRUD)
-│
-├── entities
-│ └── Pessoa.java # Entidade que representa a tabela Pessoa
-│
-├── repositories
-│ └── PessoaRepository.java # Acesso ao banco de dados via JDBC
-│
-├── factories
-│ └── ConnectionFactory.java # Classe responsável pela conexão com o MySQL
-│
-└── resources
-└── script.sql # Script de criação do banco e tabela
 
